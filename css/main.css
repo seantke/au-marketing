@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Pacifico|Raleway|Rubik");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif; }
+
+body {
+  font-size: 1.6em; }
+  body * {
+    box-sizing: border-box; }
+
+h1 {
+  font-size: 4em; }
+
+h2 {
+  font-size: 3.5em; }
+
+h3 {
+  font-size: 3em; }
+
+h4 {
+  font-size: 2.5em; }
+
+h5 {
+  font-size: 2em; }
+
+h6 {
+  font-size: 1.5em; }
+
+.fullheight {
+  min-height: 100vh;
+  padding: 10vw;
+  font-size: 2em;
+  font-size: 2vw; }
+  @media screen and (max-width: 1500px) {
+    .fullheight {
+      font-size: 2.4vw; } }
+  @media screen and (max-width: 980px) {
+    .fullheight {
+      font-size: 3.6vw; } }
+  @media screen and (max-width: 640px) {
+    .fullheight {
+      font-size: 5vw; } }
+
+#area1 {
+  background-color: #E37222;
+  color: #ffffff; }
+
+#area2 {
+  background-color: #66B9BF;
+  color: #ffffff; }
+
+#area3 {
+  background-color: #EEAA7B;
+  color: #000000; }
+
+#area4 {
+  background-color: #07889B;
+  color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */

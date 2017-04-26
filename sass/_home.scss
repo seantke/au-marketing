@@ -1,0 +1,33 @@
+.fullheight {
+    min-height: 100vh;
+    padding: 10vw;
+    font-size:2em;
+    font-size: 2vw;
+
+    @media screen and (max-width: $break-large){
+      font-size:2.4vw;
+    }
+    @media screen and (max-width: $break-medium){
+      font-size:3.6vw;
+    }
+    @media screen and (max-width: $break-smallest){
+      font-size:5vw;
+    }
+}
+
+#area1{
+  background-color: $tangerine;
+  color: set-text-color($tangerine);
+}
+#area2{
+  background-color: $powder;
+  color: set-text-color($powder);
+}
+#area3{
+  background-color: $tan;
+  color: set-text-color($tan);
+}
+#area4{
+  background-color: $teal;
+  color: set-text-color($teal);
+}

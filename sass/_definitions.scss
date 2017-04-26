@@ -1,0 +1,18 @@
+$fassb-orange: #ff6600;
+$tangerine: #E37222;
+$tan: #EEAA7B;
+$powder: #66B9BF;
+$teal: #07889B;
+
+$break-large: 1500px;
+$break-medium: 980px;
+$break-smallest: 640px;
+
+
+@function set-text-color($color) {
+  @if (lightness($color) > 60) {
+    @return #000000; // Lighter backgorund, return dark color
+  } @else {
+    @return #ffffff; // Darker background, return light color
+  }
+}
